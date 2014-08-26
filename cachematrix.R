@@ -65,8 +65,8 @@ cacheSolve <- function(specialMatrix, ...) {
     ## Get the matrix from special object.
     input <- specialMatrix$getInputMatrix()
 
-    ## Calculate inverse matrix using matrix multiplication.
-    inverseMatrix <- solve(input) %*% input
+    ## Calculate inverse matrix.
+    inverseMatrix <- solve(input)
 
     ## Set inverse to special object.
     specialMatrix$setInverseMatrix(inverseMatrix)
