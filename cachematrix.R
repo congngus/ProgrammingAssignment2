@@ -2,7 +2,6 @@
 ## R Programming by Roger D. Peng, PhD, Jeff Leek, PhD, Brian Caffo.
 ## Johns Hopkins University.
 ## Programming Assignment 2
-## Submitted by Cong Nguyen on 24/8/2014.
 ##_____________________________________________________________________##
 
 ## A pair of functions that creates a "special matrix" object that can cache its inverse
